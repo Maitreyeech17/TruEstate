@@ -53,8 +53,8 @@ Pagination is implemented with a fixed page size of 10 items per page using Mong
    
    Create a `.env` file in the backend root directory:
    ```env
-   PORT=5001
-   MONGODB_URI=mongodb+srv://<username>:<password>@cluster0.xxxxx.mongodb.net/truestate?retryWrites=true&w=majority
+   PORT=
+   MONGODB_URI=
    ```
    
    Replace `<username>`, `<password>`, and cluster details with your MongoDB Atlas credentials.
@@ -77,7 +77,7 @@ Pagination is implemented with a fixed page size of 10 items per page using Mong
    
    Test the health endpoint:
    ```bash
-   curl http://localhost:5001/
+
    ```
    
    Expected response:
