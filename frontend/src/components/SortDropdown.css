@@ -1,0 +1,91 @@
+/* SortDropdown.css */
+
+/* Align container to right */
+.sort-dropdown {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+/* Dropdown button */
+.sort-dropdown button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: fit-content;
+  min-width: 200px;
+  padding: 8px 10px;
+  font-size: 12px;
+  font-weight: 500;
+  background-color: #f3f3f3;
+  border: #f3f3f3 1px solid;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s, border-color 0.2s;
+}
+.sort-dropdown button:hover {
+  background-color: #f3f4f6; /* smooth hover */
+}
+
+/* Chevron icon */
+.sort-dropdown button svg {
+  width: 16px;
+  height: 16px;
+  transition: transform 0.2s;
+}
+
+.sort-dropdown.open button svg {
+  transform: rotate(180deg);
+}
+
+/* Dropdown panel */
+/* Align container to right */
+.sort-dropdown {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+/* Dropdown button */
+.sort-dropdown button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: fit-content;
+  min-width: 200px;
+  padding: 8px 10px;
+  font-size: 12px;
+  font-weight: 500;
+  background-color: #f3f3f3;
+  border: #f3f3f3 1px solid;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s, border-color 0.2s;
+}
+
+/* Dropdown options */
+.sort-dropdown .dropdown-items button {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 8px 12px;
+  font-size: 14px;
+  color: #1f2937; /* dark gray */
+  text-align: left;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.sort-dropdown .dropdown-items button:hover {
+  background-color: #f3f4f6;
+}
+
+/* Selected option */
+.sort-dropdown .dropdown-items .selected {
+  background-color: #eff6ff; /* light primary */
+  color: #1d4ed8; /* primary text */
+}

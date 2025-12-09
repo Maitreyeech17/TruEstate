@@ -1,0 +1,74 @@
+.stats-boxes-container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding: 0 16px;
+  width: 40%;
+  margin-bottom: 25px;
+}
+
+.stats-box {
+  flex: 1;
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 6px 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  height: 57px; /* <— new */
+}
+
+.stats-box-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.stats-box-title {
+  font-size: 13px;
+  font-weight: 500;
+  color: #4b5563;
+}
+
+.stats-box-value {
+  font-size: 15px;
+  font-weight: 700;
+  color: #111827;
+  margin-top: 1px; /* <— ensures separation */
+}
+
+.stats-box-tooltip {
+  position: absolute;
+  bottom: 100%;
+  right: 0;
+  margin-bottom: 4px;
+  width: 100px;
+  padding: 6px;
+  background-color: #111827; /* gray-900 */
+  
+  color: #ffffff;
+  font-size: 12px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  z-index: 10;
+}
+
+.stats-box-tooltip-arrow {
+  position: absolute;
+  top: 100%;
+  right: 8px;
+  width: 0;
+  height: 0;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 4px solid #111827;
+}
+.stats-box-header button {
+  background: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+  outline: none;
+  box-shadow: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}

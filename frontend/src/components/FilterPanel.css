@@ -1,0 +1,55 @@
+/* FilterPanel Container */
+.filter-panel-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  width: 70% !important;
+  height: auto;
+  min-height: 28px;
+}
+
+/* Left Section: Refresh + Filters */
+.filter-panel-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: nowrap;
+  width: 70%;
+}
+
+/* Refresh Button */
+.filter-panel-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  gap: 8px;
+  width: 30px;
+  height: 28px;
+  background-color: #F3F3F3;
+  border-radius: 4px;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  flex-shrink: 0;
+}
+
+.filter-panel-button:hover {
+  background-color: #e0e0e0;
+}
+
+.filter-panel-icon {
+  width: 16px;
+  height: 16px;
+  color: #3A3A47;
+}
+
+/* MultiSelectDropdown & Date/Age dropdowns wrapper */
+.filter-panel-left > div {
+  
+  flex-shrink: 0;
+}

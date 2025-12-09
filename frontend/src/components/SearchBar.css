@@ -1,0 +1,33 @@
+/* main container box */
+.searchbar-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 272px;            /* adjust width if needed */
+  padding: 8px 12px;
+  background-color: #f3f3f3;
+  border-radius: 6px;
+}
+
+/* icon */
+.searchbar-icon {
+  width: 18px;
+  height: 18px;
+  color: gray;
+  flex-shrink: 0;
+}
+
+/* input */
+.searchbar-wrapper input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 14px;
+  color: #000; /* normal input text */
+}
+
+/* placeholder */
+.searchbar-wrapper input::placeholder {
+  color: grey;
+}
