@@ -40,9 +40,7 @@ The transaction table supports pagination. The pagination component handles navi
 
 ### Steps
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/<your-username>/journim-frontend.git
-   cd journim-frontend
+   
 Install dependencies:
 
 npm install
