@@ -1,7 +1,7 @@
-# Journim Frontend
+# Frontend
 
 ## 1. Overview
-This is the frontend for the Journim Sales Management System. It provides an interactive interface for viewing transactions, applying filters, performing searches, sorting data, and navigating paginated results. The application is responsive and integrates seamlessly with a backend API for real-time data fetching.
+This is the frontend for the retail Management System. It provides an interactive interface for viewing transactions, applying filters, performing searches, sorting data, and navigating paginated results. The application is responsive and integrates seamlessly with a backend API for real-time data fetching.
 
 ## 2. Tech Stack
 - **Framework:** React (Vite)
